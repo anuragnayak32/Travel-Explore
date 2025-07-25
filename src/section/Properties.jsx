@@ -2,7 +2,7 @@ import React from 'react'
 
 function Properties() {
   return (
-    <div> dgcvvkkvhvjhxcbhvb</div>
+    <div> dgcvvkkvcvchvjhxcbhvb</div>
   )
 }
 
