@@ -27,7 +27,7 @@ function Hero() {
       <div className={`${darkMode ? "dark bg-black" : "light bg-white"}`}>
         <section
           id="hero"
-          className="w-[95%] h-[600px] m-suto bg-cover bg-center rounded-xl flex justify-center flex-col items-start lg:px-28 px-10 gap-7 z-20"
+          className="w-[98%] h-[600px] m-auto bg-cover bg-center rounded-xl flex justify-center flex-col items-start lg:px-28 px-10 gap-7 z-20"
           style={{ backgroundImage: `url(${heroing})` }}
         >
           <h1
@@ -102,10 +102,11 @@ function Hero() {
               <option value="Option3">Condos</option>
             </select>
           </div>
-          <div className="w-full"></div>
+          <div className="w-full">
           <button className="bg-red-600 dark:bg-red-700 hover:bg-black dark:hover:bg-white dark:hover:text-black text-lg p-4 w-full text-white font-semibold rounded-xl cursor-pointer transform hover:scale-110 transition-transform duration-300">
             SUBMIT
           </button>
+          </div>
         </div>
       </div>
     </>
